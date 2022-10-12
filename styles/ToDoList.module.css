@@ -1,0 +1,43 @@
+.check {
+    -webkit-appearance: none;
+    /*hides the default checkbox*/
+    margin-left: 5%;
+    height: 1.5em;;
+    width: 20px;
+    transition: 0.20s;
+    background-color: #FE0006;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+}
+
+.check:checked {
+    background-color: #0E9700;
+}
+
+.check:before {
+    content: "✖";
+}
+
+.check:checked:before {
+    content: "✔";
+}
+
+.check:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.customDiv {
+    text-align: right;
+    
+}
+
+.customButton{
+    background-color: red;
+    color: white;
+    outline: none;
+    margin-left:200px
+}
