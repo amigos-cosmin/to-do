@@ -1,0 +1,9 @@
+{
+	"name": "Test-Factory-Cosmin",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bb60f8b0-a0f1-4d92-afdd-d534025f52d3",
+		"tenantId": "7379a6e0-82c8-4c08-b8e9-652441bae7c0"
+	}
+}
