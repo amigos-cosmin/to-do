@@ -26,6 +26,9 @@
 				}
 			],
 			"scriptLines": [
+				"parameters{",
+				"     parameter1 as string (\"string\")",
+				"}",
 				"source(output(",
 				"          movie as string,",
 				"          title as string,",
